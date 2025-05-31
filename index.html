@@ -4,15 +4,32 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="icon" href="assets/images/favicon-32x32.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Memory Game</title>
 </head>
 
 <body>
-    <h1>Hi</h1>
+    <h1 class="heading">
+        <img class="logo" src="assets/images/favicon-32x32.png" alt="Memory Game logo">
+        Memory Game
+    </h1>
+
+    <div class="game-controls">
+        Time: <span id="timer">0</span> seconds
+        <button id="restart-button"> Restart</button>
+    </div>
+
+    <div class="game-board" id="game-board"></div>
+    <div id="message"></div>
 
     <script src="assets/js/script.js"></script>
-
 </body>
 
 </html>
