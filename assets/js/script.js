@@ -35,6 +35,28 @@ function unflipCards() {
   flippedCards = []; // reset value back to 0
 }
 
+/**
+ Checks if the two flipped cards match
+*/
+function checkMatch() {
+  const [card1, card2] = flippedCards; 
+ // if both cards match, they will be marked as matched
+  if (card1.dataset.value === card2.dataset.value ) {
+     card1.classList.add("matched"); 
+    card2.classList.add("matched"); 
+    flippedCards = []; // Reset flipped cards
+     matchedPairs++; // Increment matched pairs count since it has matched, once all matched pairs are matched the game finishes
+  
+     // If all pairs have been matched, stop the timer as the game has finished & show a win message
+     if (matchedPairs === cards.length / 2) {
+      clearInterval(timerInterval);
+      message.textContent = `You won in ${timer} seconds!`;
+     }
+  } else {
+      setTimeout(unflipCards, 1000); // if they dont match, flip them back after 1 second and continue game.
+     }
+    }
+    
 
 
 /**
