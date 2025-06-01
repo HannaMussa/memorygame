@@ -19,20 +19,38 @@ let timer = 0
 let timerInterval;
 
 /**
- Flip a card and reveal its assigned icon
+ * Flip a card and reveal its assigned icon
 */
 function flipCard(card) {
 card.innerHTML = card.dataset.value; 
 }
 
+/**
+ Flips the cards back to a question mark if they don't match
+*/
 function unflipCards() {
+  flippedCards.forEach(function(card) {
+    card.innerHTML = '<i class="fa-solid fa-question"></i>'; // Show the question mark again
+  });
+  flippedCards = []; // reset value back to 0
 }
 
+
+
+/**
+ * Checks if the two flipped cards match
+ */
 function checkMatch() {
 }
 
+/**
+ *Deals with any card that is clicked
+ */
 function handleCardClick(e) {
 }
 
+/**
+ * Resets the game 
+ */
 function resetGame() {
 }
