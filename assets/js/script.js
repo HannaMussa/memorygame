@@ -21,7 +21,7 @@ window.addEventListener("DOMContentLoaded", function() {
  * Flip a card and reveal its assigned icon
 */
 function flipCard(card) {
-card.innerHTML = card.dataset.value; 
+card.innerHTML = card.dataset.icon; 
 }
 
 /**
@@ -40,7 +40,7 @@ function unflipCards() {
 function checkMatch() {
   const [card1, card2] = flippedCards; 
  // if both cards match, they will be marked as matched
-  if (card1.dataset.value === card2.dataset.value ) {
+  if (card1.dataset.icon === card2.dataset.icon ) {
      card1.classList.add("matched"); 
     card2.classList.add("matched"); 
     flippedCards = []; // Reset flipped cards
@@ -61,15 +61,15 @@ function checkMatch() {
  *Deals with any card that is clicked
  */
 function handleCardClick(e) {
-let card = event.target;
+let card = e.currentTarget;
  if (
-    card.classList.contains("matched") ||flippedCards.length > 1 || flippedCards.includes()
-  ) return false;
-}
-
+    card.classList.contains("matched") ||flippedCards.length >= 2 || flippedCards.includes(card)
+  ){
+    return false;
+  } 
 flipCard(card);
-  flippedCards.push();
-  if (flippedCards.length == 1) { checkMatch(); 
+  flippedCards.push(card);
+  if (flippedCards.length === 2) { checkMatch(); 
   }
 }
 
@@ -83,10 +83,24 @@ function resetGame() {
   flippedCards = [];            // clear any flipped cards
   message.textContent = "";    // clear message
   timerDisplay.textContent = "0"; // Reset timer display
-  cards.sort(() => 0.5 - Math.random());  // shuffle the cards randomly
- //clear the board for new game:
- card.innerHTMLHTML = '<i class="fa-solid fa-question"></i>';
-card.cardlist.remove ("matched")
+  
+  
+  cards = Array.from(document.querySelectorAll(".card"));
+ cards.sort(() => Math.random() -0.5 );  // shuffle the cards randomly
+ 
+  //clear the board for new game:
+ cards.forEach(function(card) {
+  board.appendChild(card); 
+  card.innerHTML = '<i class="fa-solid fa-question"></i>';
+card.classList.remove ("matched");
 card.removeEventListener("click", handleCardClick);
 card.addEventListener("click", handleCardClick);
+  });
+
+  // restart timer when game restarts
+
+  timerInterval = setInterval(function() {
+  timer = timer + 1;
+  timerDisplay.textContent=timer;
   }
+  ,1000);}
