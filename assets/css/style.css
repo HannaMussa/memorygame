@@ -55,7 +55,9 @@ body {
 /* Game board */
 .game-board {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 15px;
   margin: 10px;
 }
@@ -65,4 +67,19 @@ body {
   border: 2px solid #ccc;
   font-size: 2rem;
   padding: 20px;
- }
+}
+
+/* Media Quiries*/
+
+@media (max-width: 768px) {
+  .game-board {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .game-board {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
