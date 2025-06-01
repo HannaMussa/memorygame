@@ -61,10 +61,32 @@ function checkMatch() {
  *Deals with any card that is clicked
  */
 function handleCardClick(e) {
+let card = event.target;
+ if (
+    card.classList.contains("matched") ||flippedCards.length > 1 || flippedCards.includes()
+  ) return false;
+}
+
+flipCard(card);
+  flippedCards.push();
+  if (flippedCards.length == 1) { checkMatch(); 
+  }
 }
 
 /**
  * Resets the game 
  */
 function resetGame() {
-}
+  clearInterval(timerInterval); // stop the timer
+  timer = 0;                    // reset timer value
+  matchedPairs = 0;             // reset matched pairs count
+  flippedCards = [];            // clear any flipped cards
+  message.textContent = "";    // clear message
+  timerDisplay.textContent = "0"; // Reset timer display
+  cards.sort(() => 0.5 - Math.random());  // shuffle the cards randomly
+ //clear the board for new game:
+ card.innerHTMLHTML = '<i class="fa-solid fa-question"></i>';
+card.cardlist.remove ("matched")
+card.removeEventListener("click", handleCardClick);
+card.addEventListener("click", handleCardClick);
+  }
