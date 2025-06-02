@@ -87,6 +87,10 @@ The [WAVE](https://wave.webaim.org/) tool evaluates web pages for structural ele
 
 <details>
 <summary>Click here to view the WAVE Feedback </summary>
+
+The Memory Game passed the WAVE accessibility evaluation tool, as shown in the screenshot below.
+![WAVE](assets/images/documentation/testing/wave/wave.png)
+
  </details>
 
 ## User Story Testing
