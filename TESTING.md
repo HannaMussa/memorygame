@@ -73,6 +73,13 @@ Chrome Lighthouse analyzes web pages for performance, accessibility, and SEO, pr
 
 <details>
 <summary>Click here to view the Lighthouse Audit </summary>
+
+| Page | Lighthouse Desktop Analysis | Lighthouse Mobile Analysis |
+|------|------------------------------|-----------------------------|
+| Game | ![Desktop](assets/images/documentation/testing/lighthouse/lighthouse-desktop.png) | ![Mobile](assets/images/documentation/testing/lighthouse/lighthouse-mobile.png) |
+
+The Lighthouse analysis was good for both desktop and mobile, hence no changes were made.
+
  </details>
 
 ## WAVE Web Accessibility Evaluation Tool
