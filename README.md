@@ -25,7 +25,16 @@ This memory game is easy to use, works smoothly on any device, and is perfect fo
    - If they don’t match, they flip back after a brief delay (1 second).
 4. **Winning**: Once all pairs are matched, a win message is shown with your total time.
 
-### Color Scheme- tbc
+### Color Scheme
+
+The Memory Game uses a calm and clear palette to enhance gameplay:
+
+* **Background:** A soft blue colour (#d6dfeb).
+* **Cards:** Medium blue (#7691d1) which switches to light green (#d1ffd6) and has bright green borders (#81c784) when matched.
+* **Restart Button:** Dark green (#408742) with a lighter green color when hovered (#7cba7f).
+* **Text:** Dark gray (#333) for readability and contrast.
+* **Instructions Panel:** Warm beige (#f2e9d5) background to contrast the background of the game.
+* **Message Area:** Bright orange (#de8322) to show success.
 
 ### Typography
 
