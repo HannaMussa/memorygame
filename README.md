@@ -98,12 +98,12 @@ Wireframes were developed usng Balsamiq for mobile, tablet and desktop sizes.
 
 |  Feature             | Description                                                                                                          |  Screenshot |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------|----------------|
-| **Game Board** | A 12-card layout (6 matching pairs) where each card flips on click to reveal a hidden icon.     | ![Game Board](assets/images/documentation/features/game-board) |
-| **Live Timer**            | Automatically starts counting when the game begins, showing how long it takes the player to match all pairs.            | ![Timer](assets/images/documentation/features/timer) |
-| **Restart Button**        | This button resets the game by shuffling the cards, clearing matches, and resetting the timer. | ![Restart](assets/images/documentation/features/restart) |
-| **Win Message Display**   | When all pairs are matched, a win message appears showing how long it took to complete the game.              | ![Win Message](assets/images/documentation/features/message) |
-| **Responsive Design**     | The layout is responsive on different screen sizes.         | ![Responsive](assets/images/documentation/features/responsive) |
-| **Clear Instructions**    | An instructions section explaining how to play the game.                      | ![Instructions](assets/images/documentation/features/Instructions) |
+| **Game Board** | A 12-card layout (6 matching pairs) where each card flips on click to reveal a hidden icon.     | ![Game Board](assets/images/documentation/features/grid-features.png) |
+| **Live Timer**            | Automatically starts counting when the game begins, showing how long it takes the player to match all pairs.            | ![Timer](assets/images/documentation/features/timer-button-features.png) |
+| **Restart Button**        | This button resets the game by shuffling the cards, clearing matches, and resetting the timer. | ![Restart](assets/images/documentation/features/timer-button-features.png) |
+| **Win Message Display**   | When all pairs are matched, a win message appears showing how long it took to complete the game.              | ![Win Message](assets/images/documentation/features/message-feature.png) |
+| **Responsive Design**     | The layout is responsive on different screen sizes.         | ![Responsive](assets/images/documentation/features/responsive-feature.png) |
+| **Clear Instructions**    | An instructions section explaining how to play the game.                      | ![Instructions](assets/images/documentation/features/instructions-feature.png) |
 </details>
 
 ### Future Features
