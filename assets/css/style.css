@@ -40,7 +40,8 @@ body {
 
 /* Game controls */
 .game-controls {
-  font-size: 1.3rem;
+  font-size: 1.3rem;  
+  margin-bottom: 20px;
 }
 
 #restart-button {
@@ -50,24 +51,51 @@ body {
   color: white;
   border: 2px solid #144316;
   border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+#restart-button:hover {
+  background-color: #7cba7f;
 }
 
 /* Game board */
 .game-board {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 15px;
   margin: 10px;
 }
 
+/* Cards */
 .card {
   background-color: #7691d1;
   border: 2px solid #ccc;
+  border-radius: 10px;
   font-size: 2rem;
   padding: 20px;
 }
+
+
+.card:hover {
+  transform: scale(1.25);
+}
+
+.card.matched {
+  background-color: #d1ffd6;
+  border-color: #81c784;
+
+}
+
+/* Message area */
+#message {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #de8322;
+}
+
 
 /* Media queries*/
 
