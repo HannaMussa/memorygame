@@ -90,7 +90,8 @@ body {
 #message {
   margin-top: 20px;
   font-size: 1.5rem;
-  color: #de8322;
+  color: #c56e12;
+  font-weight: 700;
 }
 
 /* Media queries*/

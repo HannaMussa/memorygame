@@ -34,7 +34,7 @@ The Memory Game uses a calm and clear palette to enhance gameplay:
 * **Restart Button:** Dark green (#408742) with a lighter green color when hovered (#7cba7f).
 * **Text:** Dark gray (#333) for readability and contrast.
 * **Instructions Panel:** Warm beige (#f2e9d5) background to contrast the background of the game.
-* **Message Area:** Bright orange (#de8322) to show success.
+* **Message Area:** Dark orange (#c56e12) to show success.
 
 ### Typography
 
