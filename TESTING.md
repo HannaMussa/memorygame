@@ -93,20 +93,23 @@ The Memory Game passed the WAVE accessibility evaluation tool, as shown in the s
 
  </details>
 
+
 ## User Story Testing
 
 <details>
-<summary>Click here to view the User story testing </summary>
+<summary>Click here to view the User Story Testing</summary>
 
-| **User Story**                                          | **How the Game Fulfills It**                                                                                              | **Screenshot**                                                                                 |
-|---------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| As a casual player, I want to flip cards and match pairs so that I can enjoy a simple, fun game during my free time. | Cards flip on click revealing icons, and matching pairs are highlighted, providing a fun and easy-to-play game experience.  | ![Match Pair](assets/images/documentation/features/match-pair-testing.png)                        |
-| As a student, I want to improve my short-term memory by playing this game regularly so that I can enhance my focus and concentration. | The game challenges memory by requiring players to remember card positions to find matches, helping improve focus over time. | ![Game Board](assets/images/documentation/features/grid-features.png)                        |
-| As a returning user, I want to see my completion time at the end of each game so that I can track my progress and try to beat my personal best in future rounds. | A timer starts automatically and displays the total time taken when the game is completed, enabling progress tracking.        | ![Message](assets/images/documentation/features/message-feature.png)                     |
-| As a first-time user, I want the game instructions to be clear and visible so that I can start playing without confusion. | Clear, visible instructions are provided on the main screen to guide new players on how to play.                            | ![Instructions](assets/images/documentation/features/instructions-feature.png)               |
-| As a mobile user, I want the game to work smoothly on my phone or tablet so that I can play on any platform.        | The layout is fully responsive and works smoothly across different devices, including phones and tablets.                   | ![Responsive](assets/images/documentation/features/responsive-feature.png)                   |
+| **User Story** | **How the Game Fulfills It** | **Screenshot** |
+|----------------|------------------------------|----------------|
+| As a casual player, I want to flip cards and match pairs so that I can enjoy a simple, fun game during my free time. | Cards flip on click, revealing icons. Matching pairs are highlighted, providing a fun and easy-to-play experience. | ![Match Pair](./assets/images/documentation/features/match-pair-testing.png) |
+| As a returning user, I would like to have controls to easily navigate the game. | The game includes a restart button, allowing users to restart the game at any time. Players can also click on cards to reveal hidden icons based on their interactions. These features give players control and enhance the user experience. | ![Button](./assets/images/documentation/features/grid-testing.png) |
+| As a returning user, I want to see my completion time at the end of each game so that I can track my progress and try to beat my personal best in future rounds. | A timer starts automatically and displays the total time taken once the game is completed, enabling progress tracking. | ![Message](./assets/images/documentation/features/message-feature.png) |
+| As a first-time user, I want the game instructions to be clear and visible so that I can start playing without confusion. | Clear and visible instructions are provided on the main screen to guide new players on how to play. | ![Instructions](./assets/images/documentation/features/instructions-feature.png) |
+| As a mobile user, I want the game to work smoothly on my phone or tablet so that I can play on any platform. | The layout is fully responsive and functions smoothly across different devices, including phones and tablets. | ![Responsive](./assets/images/documentation/features/responsive-feature.png) |
 
 </details>
+
+
 
 ## Testing Existing Features
 

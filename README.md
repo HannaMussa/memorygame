@@ -48,7 +48,7 @@ Montserrat was chosen for its modern look and easy readability. Consistency has 
 
 - **As a casual player**, I want to flip cards and match pairs so that I can enjoy a simple, fun game during my free time.
 
-- **As a student**, I want to improve my short-term memory by playing this game regularly so that I can enhance my focus and concentration.
+- **As a returning user** I would like to have controls to easily control navigate the game.
 
 - **As a returning user**, I want to see my completion time at the end of each game so that I can track my progress and try to beat my personal best in future rounds.
 
