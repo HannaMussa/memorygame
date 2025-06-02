@@ -56,7 +56,7 @@ Montserrat was chosen for its modern look and easy readability. Consistency has 
 
 - **As a mobile user**, I want the game to work smoothly on my phone or tablet so that I can play on any platform.
 
-## Development Cycle-tbc
+## Development Cycle
 
 ## Wireframes
 
@@ -92,8 +92,38 @@ Wireframes were developed usng Balsamiq for mobile, tablet and desktop sizes.
 ## Features
 
 ### Existing Features
+<details>
+<summary>Click here to view the Existing Features </summary>
+
+
+|  Feature             | Description                                                                                                          |  Screenshot |
+|------------------------|--------------------------------------------------------------------------------------------------------------------------|----------------|
+| **Game Board** | A 12-card layout (6 matching pairs) where each card flips on click to reveal a hidden icon.     | ![Game Board](assets/images/documentation/features/game-board) |
+| **Live Timer**            | Automatically starts counting when the game begins, showing how long it takes the player to match all pairs.            | ![Timer](assets/images/documentation/features/timer) |
+| **Restart Button**        | This button resets the game by shuffling the cards, clearing matches, and resetting the timer. | ![Restart](assets/images/documentation/features/restart) |
+| **Win Message Display**   | When all pairs are matched, a win message appears showing how long it took to complete the game.              | ![Win Message](assets/images/documentation/features/message) |
+| **Responsive Design**     | The layout is responsive on different screen sizes.         | ![Responsive](assets/images/documentation/features/responsive) |
+| **Clear Instructions**    | An instructions section explaining how to play the game.                      | ![Instructions](assets/images/documentation/features/Instructions) |
+</details>
 
 ### Future Features
+<details>
+<summary>Click here to view the Future Features </summary>
+
+There are several features that can be implememted in the future.
+
+- **Sound Effects**  
+  Add sound effects for card flips, matches, mismatches to increase interactivity.
+
+- **Score System**  
+  Implement a score system to track best times or fewest moves for competition.
+
+- **Theme Customization**  
+  Allow users to choose between different icons or card themes.
+
+- **Challenge Mode**  
+  Introduce timed modes where players must match all pairs before the clock runs out. 
+</details>
 
 ## Technologies Used
 
