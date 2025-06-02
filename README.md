@@ -58,6 +58,20 @@ Montserrat was chosen for its modern look and easy readability. Consistency has 
 
 ## Development Cycle
 
+
+<details>
+<summary>Click here to view the development cycle </summary>
+
+
+| User Story Target         | Issue Acceptance Criteria and Tasks                                                                 | In Progress                                                                 | Done                                                                     |
+|--------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| Instructions             | ![Instructions Detail](assets/images/documentation/development/inst-detail.png)                    | ![Instructions In Progress](assets/images/documentation/development/inst-prog.png)  | ![Instructions Done](assets/images/documentation/development/inst-done.png)       |
+| Responsive Design        | ![Responsive Detail](assets/images/documentation/development/responsive-detail.png)                | ![Responsive In Progress](assets/images/documentation/development/responsive-prog.png) | ![Responsive Done](assets/images/documentation/development/responsive-done.png)   |
+| Timer                    | ![Timer Detail](assets/images/documentation/development/timer-detail.png)                          | ![Timer In Progress](assets/images/documentation/development/timer-prog.png)         | ![Timer Done](assets/images/documentation/development/timer-done.png)             |
+| Buttons and Accessibility| ![Buttons Detail](assets/images/documentation/development/button-detail.png)                       | ![Buttons In Progress](assets/images/documentation/development/buttons-prog.png)      | ![Buttons Done](assets/images/documentation/development/buttons-done.png)          |
+| Interactive fun game     | ![Interactive Detail](assets/images/documentation/development/interactive-detail.png)              | ![Interactive In Progress](assets/images/documentation/development/interactive-prog.png)| ![Interactive Done](assets/images/documentation/development/interactive-done.png) |
+</details>
+
 ## Wireframes
 
 Wireframes were developed usng Balsamiq for mobile, tablet and desktop sizes.
