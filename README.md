@@ -1,14 +1,29 @@
+## Table of Contents
+
+- [UX](#ux)
+- [User Stories](#user-stories)
+- [Development Cycle](#development-cycle)
+- [Wireframes](#wireframes)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Content Credits](#content-credits)
+- [Media](#media)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Acknowledgements](#acknowledgements)
+
+
 # Memory Game
 
 **Memory Game** is a fun and interactive browser-based card matching game. Designed to strengthen memory muscles and improve focus, it offers a quick and engaging mental workout suitable for all ages. The gameplay is easy and straightforward—just flip cards to find matching pairs. To add a competitive edge, the game shows your completion time, allowing you to challenge yourself to beat your best score with every round.
 
-[View the live site here.](https://hannamussa.github.io/zanzibartours/)
+[View the live site here.](https://hannamussa.github.io/memorygame/)
 
 ## UX
 
 ### Target Audience
 
-This game is perfect for all ages—whether you're a child building cognitive skills, a student sharpening your memory, an adult in need of a mindful break, or an older adult keeping your mind active. With its simple mechanics and playful design, Memory Game offers a fun and stimulating way to stay mentally engaged. Just flip the cards, find the matching pairs, and track your progress with the time feature dispalyed- it is a great chance to challenge yourself.
+This game is perfect for all ages—whether you're a child building cognitive skills, a student sharpening your memory, an adult in need of a mindful break, or an older adult keeping your mind active. With its simple mechanics and playful design, Memory Game offers a fun and stimulating way to stay mentally engaged. Just flip the cards, find the matching pairs, and track your progress with the time feature displayed- it is a great chance to challenge yourself.
 
 ### How to play
 
@@ -42,7 +57,7 @@ The Memory Game uses a calm and clear palette to enhance gameplay:
 
 A **sans-serif** fallback is provided in cases where the primary font fails to load.
 
-Montserrat was chosen for its modern look and easy readability. Consistency has been mainted with the use of one font throughout to help create a simple, clutter-free design.
+Montserrat was chosen for its modern look and easy readability. Consistency has been maintained with the use of one font throughout to help create a simple, clutter-free design.
 
 ## User Stories
 
@@ -124,7 +139,7 @@ Wireframes were developed usng Balsamiq for mobile, tablet and desktop sizes.
 <details>
 <summary>Click here to view the Future Features </summary>
 
-There are several features that can be implememted in the future.
+There are several features that can be implemented in the future.
 
 - **Sound Effects**  
   Add sound effects for card flips, matches, mismatches to increase interactivity.
@@ -140,6 +155,45 @@ There are several features that can be implememted in the future.
 </details>
 
 ## Technologies Used
+
+This section highlights the tools, languages, and frameworks used in the development of the project:
+
+- **[HTML](https://en.wikipedia.org/wiki/HTML)** – For structuring the content of the web pages.
+- **[CSS](https://en.wikipedia.org/wiki/CSS)** – For styling the appearance of the site.
+- **[JavaScript](https://en.wikipedia.org/wiki/JavaScript)** – For implementing interactivity and game logic.
+- **[Visual Studio Code](https://code.visualstudio.com/)** – Code editor used to build and manage the project.
+- **[Git](https://git-scm.com/)** – Version control tool used to track changes in the project.
+- **[GitHub](https://github.com/)** – Hosting platform used to store and deploy the project repository.
+- **[Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)** – Used for debugging, inspecting elements, and testing media queries.
+- **[Google Fonts](https://fonts.google.com/)** – Used to import custom fonts into the project.
+- **[FontAwesome](https://fontawesome.com/)** – Used for visual icons throughout the game interface.
+- **[Favicon.io](https://favicon.io/)** – Used to create and implement the favicon and logo.
+
+## Content Credits
+
+| Source                                                                                                      |      Location       | Notes                                                                            |
+| ----------------------------------------------------------------------------------------------------------- | :-----------------: | -------------------------------------------------------------------------------- |
+| [Markdown Builder](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)                        |   README.md file    | Assisted in understanding Markdown language.                                     |
+| [Code Institute Readme Template](https://github.com/Code-Institute-Solutions/readme-template)               |   README.md file    | Helped with structuring the README layout and content.                           |
+| [Code Institute Love Maths Tutorial](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode) | Entire website file | Provided guidance on layout and JavaScript implementation for the game.          |
+| [Google Fonts](https://fonts.google.com/)                                                                   |   Entire website    | Fonts used throughout the site.                                                  |
+| [W3Schools](https://www.w3schools.com/webdev/wd_javascript.asp)                                             |   Entire website    | Helped with understanding JavaScript syntax, loops, and conditions.              |
+| [FontAwesome](https://fontawesome.com/)                                                                     |   Icons on cards    | Used for icons on the game cards.                                                |
+| [Favicon.io](https://favicon.io/)                                                                           |       Website       | Used to generate the favicon and logo displayed in the header and browser tab.   |
+| [JavaScript Game Tutorial](https://www.youtube.com/watch?v=xWdkt6KSirw)                                     |   Entire project    | Guided understanding of JavaScript and game logic implementation in script.js. |
+| [JavaScript Memory Game Guide](https://www.youtube.com/watch?v=QJWnbJ39nP4)                                 |   Entire project    | Provided ideas and support for writing game logic in script.js.                |
+| [Minesweeper Project by dougyb83](https://github.com/dougyb83/minesweeper)                                  |   README.md file    | Used for inspiration on README structure and general product presentation.       |
+
+## Media
+
+This section includes media assets that enhance the visual and interactive aspects of the website:
+
+| Source                                                                      |    Location    | Notes                                                                              |
+| --------------------------------------------------------------------------- | :------------: | ---------------------------------------------------------------------------------- |
+| [FontAwesome](https://fontawesome.com/)                                     | Icons on cards | Used for visual icons representing the game tiles.                                 |
+| [Favicon.io](https://favicon.io/)                                           | Website header | Used to create the favicon/logo displayed in the navbar and browser tab.           |
+| [JavaScript Game Tutorial](https://www.youtube.com/watch?v=xWdkt6KSirw)     | Entire project | Source of inspiration for styling and interactive features in the game.            |
+| [JavaScript Memory Game Guide](https://www.youtube.com/watch?v=QJWnbJ39nP4) | Entire project | Assisted in shaping the visual layout and logic flow of the memory game interface. |
 
 ## Testing
 
@@ -183,3 +237,6 @@ Forking a repository allows you to create a personal copy of a project.
 4. Click **Create fork**.  
 5. The forked repository will now appear in your GitHub account.
 
+### Acknowledgements
+
+- I am grateful to my tutor, Robert Thompson, and my mentor, Richard Wells, for their continued support and guidance during this project.
