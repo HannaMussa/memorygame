@@ -31,9 +31,9 @@ This memory game is easy to use, works smoothly on any device, and is perfect fo
 
 **Montserrat** was selected as the primary font for both headings and body text in the Memory Game.
 
-A **sans-serif** fallback is provided to ensure consistency and readability in cases where the primary font fails to load.
+A **sans-serif** fallback is provided in cases where the primary font fails to load.
 
-Montserrat was chosen for its clean, modern look and easy readability on all screen sizes. Consistency has been mainted with the use of one font throughout to help create a simple, clutter-free design that lets players focus on the game.
+Montserrat was chosen for its modern look and easy readability. Consistency has been mainted with the use of one font throughout to help create a simple, clutter-free design.
 
 ## User Stories
 
