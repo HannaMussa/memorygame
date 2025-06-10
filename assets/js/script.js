@@ -30,7 +30,7 @@ function flipCard(card) {
 function unflipCards() {
   flippedCards.forEach(function (card) {
     // Show the question mark again
-    card.innerHTML = "<i class="fa-solid fa-question"></i>";
+    card.innerHTML = '<i class="fa-solid fa-question"></i>';
   });
   flippedCards = []; // reset value back to 0
 }
@@ -53,8 +53,8 @@ function checkMatch() {
       message.textContent = `You won in ${timer} seconds!`;
     }
   } else {
-   // if they dont match, flip them back after 1 second and continue game.
-    setTimeout(unflipCards, 1000); 
+    // if they dont match, flip them back after 1 second and continue game.
+    setTimeout(unflipCards, 1000);
   }
 }
 
@@ -94,7 +94,7 @@ function resetGame() {
   //clear the board for new game:
   cards.forEach(function (card) {
     board.appendChild(card);
-    card.innerHTML = "<i class="fa-solid fa-question"></i>";
+    card.innerHTML = '<i class="fa-solid fa-question"></i>';
     card.classList.remove("matched");
     card.removeEventListener("click", handleCardClick);
     card.addEventListener("click", handleCardClick);
