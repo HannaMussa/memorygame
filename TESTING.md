@@ -93,23 +93,20 @@ The Memory Game passed the WAVE accessibility evaluation tool, as shown in the s
 
  </details>
 
-
 ## User Story Testing
 
 <details>
 <summary>Click here to view the User Story Testing</summary>
 
-| **User Story** | **How the Game Fulfills It** | **Screenshot** |
-|----------------|------------------------------|----------------|
-| As a casual player, I want to flip cards and match pairs so that I can enjoy a simple, fun game during my free time. | Cards flip on click, revealing icons. Matching pairs are highlighted, providing a fun and easy-to-play experience. | ![Match Pair](./assets/images/documentation/features/match-pair-testing.png) |
-| As a returning user, I would like to have controls to easily navigate the game. | The game includes a restart button, allowing users to restart the game at any time. Players can also click on cards to reveal hidden icons based on their interactions. These features give players control and enhance the user experience. | ![Button](./assets/images/documentation/features/grid-testing.png) |
-| As a returning user, I want to see my completion time at the end of each game so that I can track my progress and try to beat my personal best in future rounds. | A timer starts automatically and displays the total time taken once the game is completed, enabling progress tracking. | ![Message](./assets/images/documentation/features/message-feature.png) |
-| As a first-time user, I want the game instructions to be clear and visible so that I can start playing without confusion. | Clear and visible instructions are provided on the main screen to guide new players on how to play. | ![Instructions](./assets/images/documentation/features/instructions-feature.png) |
-| As a mobile user, I want the game to work smoothly on my phone or tablet so that I can play on any platform. | The layout is fully responsive and functions smoothly across different devices, including phones and tablets. | ![Responsive](./assets/images/documentation/features/responsive-feature.png) |
+| **User Story**                                                                                                                                                   | **How the Game Fulfills It**                                                                                                                                                                                                                 | **Screenshot**                                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| As a casual player, I want to flip cards and match pairs so that I can enjoy a simple, fun game during my free time.                                             | Cards flip on click, revealing icons. Matching pairs are highlighted, providing a fun and easy-to-play experience.                                                                                                                           | ![Match Pair](./assets/images/documentation/features/match-pair-testing.png)     |
+| As a returning user, I would like to have controls to easily navigate the game.                                                                                  | The game includes a restart button, allowing users to restart the game at any time. Players can also click on cards to reveal hidden icons based on their interactions. These features give players control and enhance the user experience. | ![Button](./assets/images/documentation/features/grid-testing.png)               |
+| As a returning user, I want to see my completion time at the end of each game so that I can track my progress and try to beat my personal best in future rounds. | A timer starts automatically and displays the total time taken once the game is completed, enabling progress tracking.                                                                                                                       | ![Message](./assets/images/documentation/features/message-feature.png)           |
+| As a first-time user, I want the game instructions to be clear and visible so that I can start playing without confusion.                                        | Clear and visible instructions are provided on the main screen to guide new players on how to play.                                                                                                                                          | ![Instructions](./assets/images/documentation/features/instructions-feature.png) |
+| As a mobile user, I want the game to work smoothly on my phone or tablet so that I can play on any platform.                                                     | The layout is fully responsive and functions smoothly across different devices, including phones and tablets.                                                                                                                                | ![Responsive](./assets/images/documentation/features/responsive-feature.png)     |
 
 </details>
-
-
 
 ## Testing Existing Features
 
@@ -132,15 +129,14 @@ The Memory Game passed the WAVE accessibility evaluation tool, as shown in the s
 <details>
 <summary>Click here to view the Bugs </summary>
 
-
-| Screenshot | Bugs Encountered | Changes Made |
-|------------|------------------|-----------------------|
-| ![Bug 1](assets/images/documentation/testing/bugs/flippedcards.png) | I used flippedCards.length > 2, which allowed more than 2 cards to flip at once. | I changed it to >= 2 so only 2 cards can be flipped at a time before checking for a match. |
-| ![Bug 2](assets/images/documentation/testing/bugs/cardlist.bug.png) | I wrote card.cardList.remove("matched"), but cardList isn’t a property in JavaScript. | I corrected it to card.classList.remove("matched") so it works correctly. |
-| ![Bug 3](assets/images/documentation/testing/bugs/ecurrent.bug.png) | I wrote e.currenttarget with a lowercase "t". JavaScript didn’t understand it. | I changed it to e.currentTarget with a capital "T", which is the correct spelling. |
-| ![Bug 4](assets/images/documentation/testing/bugs/htmltypo.bug.png) | I wrote inner.HTMLHTML which was a spelling error. | I fixed the typo to innerHTML. |
-| ![Bug 5](assets/images/documentation/testing/bugs/push.bug.png) | I used flippedCards.push() with no parameters inside the brackets. | I changed it to flippedCards.push(card) so the clicked card is added to the list. |
-| ![Bug 6](assets/images/documentation/testing/bugs/length1.bug.png) | I used if (flippedCards.lgngth == 1), but only one card isn’t enough to check a match. | I changed it to == 2 so it checks for a match only after 2 cards are flipped. |
+| Screenshot                                                          | Bugs Encountered                                                                       | Changes Made                                                                               |
+| ------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| ![Bug 1](assets/images/documentation/testing/bugs/flippedcards.png) | I used flippedCards.length > 2, which allowed more than 2 cards to flip at once.       | I changed it to >= 2 so only 2 cards can be flipped at a time before checking for a match. |
+| ![Bug 2](assets/images/documentation/testing/bugs/cardlist.bug.png) | I wrote card.cardList.remove("matched"), but cardList isn’t a property in JavaScript.  | I corrected it to card.classList.remove("matched") so it works correctly.                  |
+| ![Bug 3](assets/images/documentation/testing/bugs/ecurrent.bug.png) | I wrote e.currenttarget with a lowercase "t". JavaScript didn’t understand it.         | I changed it to e.currentTarget with a capital "T", which is the correct spelling.         |
+| ![Bug 4](assets/images/documentation/testing/bugs/htmltypo.bug.png) | I wrote inner.HTMLHTML which was a spelling error.                                     | I fixed the typo to innerHTML.                                                             |
+| ![Bug 5](assets/images/documentation/testing/bugs/push.bug.png)     | I used flippedCards.push() with no parameters inside the brackets.                     | I changed it to flippedCards.push(card) so the clicked card is added to the list.          |
+| ![Bug 6](assets/images/documentation/testing/bugs/length1.bug.png)  | I used if (flippedCards.lgngth == 1), but only one card isn’t enough to check a match. | I changed it to == 2 so it checks for a match only after 2 cards are flipped.              |
 
 </details>
 
@@ -148,4 +144,6 @@ The Memory Game passed the WAVE accessibility evaluation tool, as shown in the s
 
 - At this time, no known unresolved bugs have been identified
 
+## Javascript Testing
 
+The JavaScript code was tested using [JS Lint](https://www.jslint.com/).
