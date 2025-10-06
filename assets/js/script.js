@@ -15,6 +15,13 @@ let timerInterval;
 window.addEventListener("DOMContentLoaded", function () {
   resetGame(); // Setup and shuffle cards, start timer
   restartButton.addEventListener("click", resetGame);
+
+  // Handle invalid or missing images
+  document.querySelectorAll("img").forEach((img) => {
+    img.onerror = () => {
+      img.alt = "Image not available";
+    };
+  });
 });
 
 /**
