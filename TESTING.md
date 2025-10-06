@@ -1,3 +1,9 @@
+## Automated vs Manual Testing
+
+**Automated testing** involves using software tools to automatically check the code for errors. For example JSLint was used in this project to detect syntax or logic issues in the code.
+
+**Manual testing** involves using and testing the game or browser yourself to check the functionality and user experience. In this project, all game features were tested by playing through the game. Also, different browsers and devices were utilised to test the responsiveness of the game.
+
 ## Code Validation
 
 To maintain code quality and detect major issues, each page has undergone validation.
