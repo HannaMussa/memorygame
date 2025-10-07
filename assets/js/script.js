@@ -1,3 +1,6 @@
+/*jslint browser:true, devel:true, plusplus:true */
+/*globals document, window, setTimeout, setInterval, clearInterval */
+
 // define constants
 const board = document.getElementById("game-board");
 const message = document.getElementById("message");
@@ -17,8 +20,8 @@ window.addEventListener("DOMContentLoaded", function () {
   restartButton.addEventListener("click", resetGame);
 
   // Handle invalid or missing images
-  document.querySelectorAll("img").forEach((img) => {
-    img.onerror = () => {
+  document.querySelectorAll("img").forEach(function (img) {
+    img.onerror = function () {
       img.alt = "Image not available";
     };
   });
@@ -53,7 +56,7 @@ function checkMatch() {
     card2.classList.add("matched");
     flippedCards = []; // Reset flipped cards
     // Increment matched pairs count, if all pairs are matched the game finishes
-    matchedPairs++;
+    matchedPairs = matchedPairs + 1;
     // If all pairs have matched, timer stops, a win message is displayed.
     if (matchedPairs === cards.length / 2) {
       clearInterval(timerInterval);

@@ -1,8 +1,8 @@
 ## Automated vs Manual Testing
 
-**Automated testing** involves using software tools to automatically check the code for errors. For example JSLint was used in this project to detect syntax or logic issues in the code. Automated testing is usually used for repetitive checks, ensuring code quality, and catching errors quickly without human intervention.
+**Automated testing** involves using software tools to automatically check the code for errors. For example JSLint was used in this project to detect syntax or logic issues in the code. Automated testing is usually deployed for repetitive checks, ensuring code quality, and catching errors quickly without human intervention.
 
-**Manual testing** involves a human interacting with or testing the app or browser to check functionality, responsiveness and user experience. In this project, all game features were tested by playing through the game. Also, different browsers and devices were utilised to test the responsiveness of the game. Manual testing evaluates user experience, user interactions, and testing across different devices and browsers.
+**Manual testing** involves a human interacting with or testing the app or browser to check functionality, responsiveness and user experience. In this project, all game features were tested by playing through the game. Also, different browsers and devices were utilised to test the responsiveness of the game. Manual testing can be deployed to evaluate user experience, user interactions, and testing across different devices and browsers.
 
 ## Code Validation
 
@@ -153,3 +153,11 @@ The Memory Game passed the WAVE accessibility evaluation tool, as shown in the s
 ## Javascript Testing
 
 The JavaScript code was tested using [JS Lint](https://www.jslint.com/).
+
+<details>
+<summary>Click here to view the JS Lint Testing </summary>
+
+The Memory Game only had 3 minor issues flagged by JS Lint that could not be changed without affecting functionality, this is shown in the screenshot below.
+![JS Lint](assets/images/documentation/testing/jslint.png)
+
+</details>
