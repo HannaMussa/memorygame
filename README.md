@@ -21,6 +21,8 @@
 
 ## Project Rationale
 
+The Memory Game was developed to provide a fun and engaging way for users of all ages to improve memory, focus, and cognitive skills. Many users need quick, simple brain-training exercises that can be played on any device. With clear instructions, a responsive layout, and a timer, the game motivates players to complete rounds efficiently while exercising their memory. This directly addresses the needs of children, students, and adults looking to keep their minds sharp.
+
 ## UX
 
 ### Target Audience
