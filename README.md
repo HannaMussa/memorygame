@@ -1,5 +1,6 @@
 ## Table of Contents
 
+- [Project Rationale](#project-rationale)
 - [UX](#ux)
 - [User Stories](#user-stories)
 - [Development Cycle](#development-cycle)
@@ -17,6 +18,8 @@
 **Memory Game** is a fun and interactive browser-based card matching game. Designed to strengthen memory muscles and improve focus, it offers a quick and engaging mental workout suitable for all ages. The gameplay is easy and straightforward—just flip cards to find matching pairs. To add a competitive edge, the game shows your completion time, allowing you to challenge yourself to beat your best score with every round.
 
 [View the live site here.](https://hannamussa.github.io/memorygame/)
+
+## Project Rationale
 
 ## UX
 
@@ -123,14 +126,15 @@ Wireframes were developed usng Balsamiq for mobile, tablet and desktop sizes.
 <details>
 <summary>Click here to view the Existing Features </summary>
 
-| Feature                 | Description                                                                                                  | Screenshot                                                                     |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
-| **Game Board**          | A 12-card layout (6 matching pairs) where each card flips on click to reveal a hidden icon.                  | ![Game Board](assets/images/documentation/features/grid-features.png)          |
-| **Live Timer**          | Automatically starts counting when the game begins, showing how long it takes the player to match all pairs. | ![Timer](assets/images/documentation/features/timer-button-features.png)       |
-| **Restart Button**      | This button resets the game by shuffling the cards, clearing matches, and resetting the timer.               | ![Restart](assets/images/documentation/features/timer-button-features.png)     |
-| **Win Message Display** | When all pairs are matched, a win message appears showing how long it took to complete the game.             | ![Win Message](assets/images/documentation/features/message-feature.png)       |
-| **Responsive Design**   | The layout is responsive on different screen sizes.                                                          | ![Responsive](assets/images/documentation/features/responsive-feature.png)     |
-| **Clear Instructions**  | An instructions section explaining how to play the game.                                                     | ![Instructions](assets/images/documentation/features/instructions-feature.png) |
+| Feature                 | Description                                                                                                                                                                                                        | Screenshot                                                                     |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| **Game Board**          | A 12-card layout (6 matching pairs) where each card flips on click to reveal a hidden icon.                                                                                                                        | ![Game Board](assets/images/documentation/features/grid-features.png)          |
+| **Live Timer**          | Automatically starts counting when the game begins, showing how long it takes the player to match all pairs.                                                                                                       | ![Timer](assets/images/documentation/features/timer-button-features.png)       |
+| **Restart Button**      | This button resets the game by shuffling the cards, clearing matches, and resetting the timer.                                                                                                                     | ![Restart](assets/images/documentation/features/timer-button-features.png)     |
+| **Win Message Display** | When all pairs are matched, a win message appears showing how long it took to complete the game.                                                                                                                   | ![Win Message](assets/images/documentation/features/message-feature.png)       |
+| **Responsive Design**   | The layout is responsive on different screen sizes.                                                                                                                                                                | ![Responsive](assets/images/documentation/features/responsive-feature.png)     |
+| **Clear Instructions**  | An instructions section explaining how to play the game.                                                                                                                                                           | ![Instructions](assets/images/documentation/features/instructions-feature.png) |
+| **404 Error Page**      | If a user navigates to a page that does not exist, a “Page Not Found” message is displayed along with a link to return to the home page. This ensures users are not confused and improves overall user experience. | ![Error](assets/images/documentation/features/error.png)                       |
 
 </details>
 
