@@ -183,6 +183,7 @@ Some parts of this project were inspired by or adapted from external sources:
 - Layout and interactive logic inspired by [Love Maths Project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode).
 - README structure inspired by [Code Institute Readme Template](https://github.com/Code-Institute-Solutions/readme-template).
 - JSLint configuration sourced from [JSLint Documentation](https://www.jslint.com/lint.html) to allow browser globals and use of `++`.
+- `<meta http-equiv="refresh">` usage sourced from [MDN Web Docs – HTML `<meta>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#attr-http-equiv) to automatically redirect users to the homepage.
 
 All other code is original and written by Hanna Mussa.
 
