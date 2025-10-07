@@ -12,7 +12,6 @@
 - [Deployment](#deployment)
 - [Acknowledgements](#acknowledgements)
 
-
 # Memory Game
 
 **Memory Game** is a fun and interactive browser-based card matching game. Designed to strengthen memory muscles and improve focus, it offers a quick and engaging mental workout suitable for all ages. The gameplay is easy and straightforward—just flip cards to find matching pairs. To add a competitive edge, the game shows your completion time, allowing you to challenge yourself to beat your best score with every round.
@@ -44,12 +43,12 @@ This memory game is easy to use, works smoothly on any device, and is perfect fo
 
 The Memory Game uses a calm and clear palette to enhance gameplay:
 
-* **Background:** A soft blue colour (#d6dfeb).
-* **Cards:** Medium blue (#7691d1) which switches to light green (#d1ffd6) and has bright green borders (#81c784) when matched.
-* **Restart Button:** Dark green (#408742) with a lighter green color when hovered (#7cba7f).
-* **Text:** Dark gray (#333) for readability and contrast.
-* **Instructions Panel:** Warm beige (#f2e9d5) background to contrast the background of the game.
-* **Message Area:** Dark orange (#c56e12) to show success.
+- **Background:** A soft blue colour (#d6dfeb).
+- **Cards:** Medium blue (#7691d1) which switches to light green (#d1ffd6) and has bright green borders (#81c784) when matched.
+- **Restart Button:** Dark green (#408742) with a lighter green color when hovered (#7cba7f).
+- **Text:** Dark gray (#333) for readability and contrast.
+- **Instructions Panel:** Warm beige (#f2e9d5) background to contrast the background of the game.
+- **Message Area:** Dark orange (#c56e12) to show success.
 
 ### Typography
 
@@ -73,18 +72,17 @@ Montserrat was chosen for its modern look and easy readability. Consistency has 
 
 ## Development Cycle
 
-
 <details>
 <summary>Click here to view the development cycle </summary>
 
+| User Story Target         | Issue Acceptance Criteria and Tasks                                                   | In Progress                                                                              | Done                                                                              |
+| ------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Instructions              | ![Instructions Detail](assets/images/documentation/development/inst-detail.png)       | ![Instructions In Progress](assets/images/documentation/development/inst-prog.png)       | ![Instructions Done](assets/images/documentation/development/inst-done.png)       |
+| Responsive Design         | ![Responsive Detail](assets/images/documentation/development/responsive-detail.png)   | ![Responsive In Progress](assets/images/documentation/development/responsive-prog.png)   | ![Responsive Done](assets/images/documentation/development/responsive-done.png)   |
+| Timer                     | ![Timer Detail](assets/images/documentation/development/timer-detail.png)             | ![Timer In Progress](assets/images/documentation/development/timer-prog.png)             | ![Timer Done](assets/images/documentation/development/timer-done.png)             |
+| Buttons and Accessibility | ![Buttons Detail](assets/images/documentation/development/button-detail.png)          | ![Buttons In Progress](assets/images/documentation/development/buttons-prog.png)         | ![Buttons Done](assets/images/documentation/development/buttons-done.png)         |
+| Interactive fun game      | ![Interactive Detail](assets/images/documentation/development/interactive-detail.png) | ![Interactive In Progress](assets/images/documentation/development/interactive-prog.png) | ![Interactive Done](assets/images/documentation/development/interactive-done.png) |
 
-| User Story Target         | Issue Acceptance Criteria and Tasks                                                                 | In Progress                                                                 | Done                                                                     |
-|--------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| Instructions             | ![Instructions Detail](assets/images/documentation/development/inst-detail.png)                    | ![Instructions In Progress](assets/images/documentation/development/inst-prog.png)  | ![Instructions Done](assets/images/documentation/development/inst-done.png)       |
-| Responsive Design        | ![Responsive Detail](assets/images/documentation/development/responsive-detail.png)                | ![Responsive In Progress](assets/images/documentation/development/responsive-prog.png) | ![Responsive Done](assets/images/documentation/development/responsive-done.png)   |
-| Timer                    | ![Timer Detail](assets/images/documentation/development/timer-detail.png)                          | ![Timer In Progress](assets/images/documentation/development/timer-prog.png)         | ![Timer Done](assets/images/documentation/development/timer-done.png)             |
-| Buttons and Accessibility| ![Buttons Detail](assets/images/documentation/development/button-detail.png)                       | ![Buttons In Progress](assets/images/documentation/development/buttons-prog.png)      | ![Buttons Done](assets/images/documentation/development/buttons-done.png)          |
-| Interactive fun game     | ![Interactive Detail](assets/images/documentation/development/interactive-detail.png)              | ![Interactive In Progress](assets/images/documentation/development/interactive-prog.png)| ![Interactive Done](assets/images/documentation/development/interactive-done.png) |
 </details>
 
 ## Wireframes
@@ -121,21 +119,23 @@ Wireframes were developed usng Balsamiq for mobile, tablet and desktop sizes.
 ## Features
 
 ### Existing Features
+
 <details>
 <summary>Click here to view the Existing Features </summary>
 
+| Feature                 | Description                                                                                                  | Screenshot                                                                     |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| **Game Board**          | A 12-card layout (6 matching pairs) where each card flips on click to reveal a hidden icon.                  | ![Game Board](assets/images/documentation/features/grid-features.png)          |
+| **Live Timer**          | Automatically starts counting when the game begins, showing how long it takes the player to match all pairs. | ![Timer](assets/images/documentation/features/timer-button-features.png)       |
+| **Restart Button**      | This button resets the game by shuffling the cards, clearing matches, and resetting the timer.               | ![Restart](assets/images/documentation/features/timer-button-features.png)     |
+| **Win Message Display** | When all pairs are matched, a win message appears showing how long it took to complete the game.             | ![Win Message](assets/images/documentation/features/message-feature.png)       |
+| **Responsive Design**   | The layout is responsive on different screen sizes.                                                          | ![Responsive](assets/images/documentation/features/responsive-feature.png)     |
+| **Clear Instructions**  | An instructions section explaining how to play the game.                                                     | ![Instructions](assets/images/documentation/features/instructions-feature.png) |
 
-|  Feature             | Description                                                                                                          |  Screenshot |
-|------------------------|--------------------------------------------------------------------------------------------------------------------------|----------------|
-| **Game Board** | A 12-card layout (6 matching pairs) where each card flips on click to reveal a hidden icon.     | ![Game Board](assets/images/documentation/features/grid-features.png) |
-| **Live Timer**            | Automatically starts counting when the game begins, showing how long it takes the player to match all pairs.            | ![Timer](assets/images/documentation/features/timer-button-features.png) |
-| **Restart Button**        | This button resets the game by shuffling the cards, clearing matches, and resetting the timer. | ![Restart](assets/images/documentation/features/timer-button-features.png) |
-| **Win Message Display**   | When all pairs are matched, a win message appears showing how long it took to complete the game.              | ![Win Message](assets/images/documentation/features/message-feature.png) |
-| **Responsive Design**     | The layout is responsive on different screen sizes.         | ![Responsive](assets/images/documentation/features/responsive-feature.png) |
-| **Clear Instructions**    | An instructions section explaining how to play the game.                      | ![Instructions](assets/images/documentation/features/instructions-feature.png) |
 </details>
 
 ### Future Features
+
 <details>
 <summary>Click here to view the Future Features </summary>
 
@@ -151,7 +151,7 @@ There are several features that can be implemented in the future.
   Allow users to choose between different icons or card themes.
 
 - **Challenge Mode**  
-  Introduce timed modes where players must match all pairs before the clock runs out. 
+ Introduce timed modes where players must match all pairs before the clock runs out.
 </details>
 
 ## Technologies Used
@@ -169,20 +169,31 @@ This section highlights the tools, languages, and frameworks used in the develop
 - **[FontAwesome](https://fontawesome.com/)** – Used for visual icons throughout the game interface.
 - **[Favicon.io](https://favicon.io/)** – Used to create and implement the favicon and logo.
 
+## Code Attribution
+
+Some parts of this project were inspired by or adapted from external sources:
+
+- Card flipping and game logic adapted from [JavaScript Memory Game Guide](https://www.youtube.com/watch?v=QJWnbJ39nP4).
+- Layout and interactive logic inspired by [Love Maths Project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode).
+- README structure inspired by [Code Institute Readme Template](https://github.com/Code-Institute-Solutions/readme-template).
+- JSLint configuration sourced from [JSLint Documentation](https://www.jslint.com/lint.html) to allow browser globals and use of `++`.
+
+All other code is original and written by Hanna Mussa.
+
 ## Content Credits
 
-| Source                                                                                                      |      Location       | Notes                                                                            |
-| ----------------------------------------------------------------------------------------------------------- | :-----------------: | -------------------------------------------------------------------------------- |
-| [Markdown Builder](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)                        |   README.md file    | Assisted in understanding Markdown language.                                     |
-| [Code Institute Readme Template](https://github.com/Code-Institute-Solutions/readme-template)               |   README.md file    | Helped with structuring the README layout and content.                           |
-| [Code Institute Love Maths Tutorial](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode) | Entire website file | Provided guidance on layout and JavaScript implementation for the game.          |
-| [Google Fonts](https://fonts.google.com/)                                                                   |   Entire website    | Fonts used throughout the site.                                                  |
-| [W3Schools](https://www.w3schools.com/webdev/wd_javascript.asp)                                             |   Entire website    | Helped with understanding JavaScript syntax, loops, and conditions.              |
-| [FontAwesome](https://fontawesome.com/)                                                                     |   Icons on cards    | Used for icons on the game cards.                                                |
-| [Favicon.io](https://favicon.io/)                                                                           |       Website       | Used to generate the favicon and logo displayed in the header and browser tab.   |
+| Source                                                                                                      |      Location       | Notes                                                                          |
+| ----------------------------------------------------------------------------------------------------------- | :-----------------: | ------------------------------------------------------------------------------ |
+| [Markdown Builder](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)                        |   README.md file    | Assisted in understanding Markdown language.                                   |
+| [Code Institute Readme Template](https://github.com/Code-Institute-Solutions/readme-template)               |   README.md file    | Helped with structuring the README layout and content.                         |
+| [Code Institute Love Maths Tutorial](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode) | Entire website file | Provided guidance on layout and JavaScript implementation for the game.        |
+| [Google Fonts](https://fonts.google.com/)                                                                   |   Entire website    | Fonts used throughout the site.                                                |
+| [W3Schools](https://www.w3schools.com/webdev/wd_javascript.asp)                                             |   Entire website    | Helped with understanding JavaScript syntax, loops, and conditions.            |
+| [FontAwesome](https://fontawesome.com/)                                                                     |   Icons on cards    | Used for icons on the game cards.                                              |
+| [Favicon.io](https://favicon.io/)                                                                           |       Website       | Used to generate the favicon and logo displayed in the header and browser tab. |
 | [JavaScript Game Tutorial](https://www.youtube.com/watch?v=xWdkt6KSirw)                                     |   Entire project    | Guided understanding of JavaScript and game logic implementation in script.js. |
 | [JavaScript Memory Game Guide](https://www.youtube.com/watch?v=QJWnbJ39nP4)                                 |   Entire project    | Provided ideas and support for writing game logic in script.js.                |
-| [Minesweeper Project by dougyb83](https://github.com/dougyb83/minesweeper)                                  |   README.md file    | Used for inspiration on README structure and general product presentation.       |
+| [Minesweeper Project by dougyb83](https://github.com/dougyb83/minesweeper)                                  |   README.md file    | Used for inspiration on README structure and general product presentation.     |
 
 ## Media
 
@@ -203,12 +214,12 @@ To view the testing carried out, please refer to the [TESTING.md](TESTING.md) fi
 
 To deploy the **Memory Game** using GitHub Pages:
 
-1. Log in to GitHub.  
-2. Search for and select the **[memorygame](https://hannamussa.github.io/memorygame/)** repository.  
-3. Navigate to the **Settings** tab.  
-4. In the left sidebar, go to **Pages** under the **Code and automation** section.  
-5. Under the **Build and deployment** section, locate the **Branch** dropdown.  
-6. Select **main** as the branch.  
+1. Log in to GitHub.
+2. Search for and select the **[memorygame](https://hannamussa.github.io/memorygame/)** repository.
+3. Navigate to the **Settings** tab.
+4. In the left sidebar, go to **Pages** under the **Code and automation** section.
+5. Under the **Build and deployment** section, locate the **Branch** dropdown.
+6. Select **main** as the branch.
 7. Click **Save** to apply the changes.
 
 [View the live site here](https://hannamussa.github.io/memorygame/)
@@ -221,20 +232,21 @@ To make a local copy on your own system, you can clone or fork this project.
 
 You can clone the repository by following these steps:
 
-1. Log in to GitHub and navigate to the **[memorygame](https://hannamussa.github.io/memorygame/)** repository.  
-2. Click the **Code** button (green dropdown).  
-3. Copy the repository URL (using HTTPS, SSH, or GitHub CLI).  
+1. Log in to GitHub and navigate to the **[memorygame](https://hannamussa.github.io/memorygame/)** repository.
+2. Click the **Code** button (green dropdown).
+3. Copy the repository URL (using HTTPS, SSH, or GitHub CLI).
 4. Open your preferred code editor and navigate to the terminal tab.  
-5.Type the following to clone the repository:  `git clone https://github.com/hannamussa/memorygame.git`
-6. Press Enter to create your local clone.
+   5.Type the following to clone the repository: `git clone https://github.com/hannamussa/memorygame.git`
+5. Press Enter to create your local clone.
 
 #### Forking
+
 Forking a repository allows you to create a personal copy of a project.
 
-1. Log in to GitHub and navigate to the **[memorygame](https://hannamussa.github.io/memorygame/)** repository.  
-2. Click **Fork**, then select **Create a new fork**.  
-3. Enter a name for your forked repository.  
-4. Click **Create fork**.  
+1. Log in to GitHub and navigate to the **[memorygame](https://hannamussa.github.io/memorygame/)** repository.
+2. Click **Fork**, then select **Create a new fork**.
+3. Enter a name for your forked repository.
+4. Click **Create fork**.
 5. The forked repository will now appear in your GitHub account.
 
 ### Acknowledgements
